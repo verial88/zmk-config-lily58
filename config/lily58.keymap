@@ -5,8 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -80,11 +78,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &trans        &trans        &trans        &trans     &trans
-&kp F1      &kp F2            &kp F3             &kp F4             &kp F5        &kp F6                          &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans     &trans
-&kp GRAVE   &kp EXCL          &kp AT             &kp HASH           &kp DOLLAR    &kp PRCNT                       &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON  &kp DOUBLE_QUOTES
-&trans      &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans        &trans        &trans    &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans
-                                                 &trans             &trans        &trans        &trans    &trans  &trans  &trans        &trans
+&none      &none     &none   &none     &none       &none                        &none         &none         &kp MINUS     &kp PLUS      &none      &none
+&kp F1     &kp F2    &kp F3  &kp F4    &kp F5      &kp F6                       &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none      &none
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT                    &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON  &kp DOUBLE_QUOTES
+&none      &none     &none   &none     &none       &none      &trans    &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &none
+                             &trans    &trans      &trans     &trans    &trans  &trans        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
