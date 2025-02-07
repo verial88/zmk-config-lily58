@@ -17,6 +17,17 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+
+        combo_colon {
+            bindings = <&kt COLON>;
+            key-positions = <52 34>;
+            timeout-ms = <50>;
+        };
+
+        combo_dquote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <52 35>;
+        };
     };
 
     behaviors {
