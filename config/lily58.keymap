@@ -110,11 +110,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&none  &none                 &none                  &none           &none            &none                     &none           &none           &none         &none            &none  &none
-&none  &kp F2                &none                  &none           &kt EQUAL        &none                     &none           &none           &none         &none            &none  &none
-&none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &none                     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none
-&none  &none                 &none                  &none           &none            &none   &trans    &trans  &none           &none           &none         &none            &none  &none
-                                                    &trans          &trans           &trans  &trans    &trans  &trans          &trans          &trans
+&none  &none                 &none                  &none           &none            &none                     &none   &none           &none           &none            &none  &none
+&none  &kp F2                &none                  &none           &kt EQUAL        &none                     &none   &none           &kp UP_ARROW    &none            &none  &none
+&none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &none                     &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none
+&none  &none                 &none                  &none           &none            &none   &trans    &trans  &none   &none           &none           &none            &none  &none
+                                                    &trans          &trans           &trans  &trans    &trans  &trans  &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
