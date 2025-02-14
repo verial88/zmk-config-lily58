@@ -15,7 +15,7 @@
         ru_us {
             bindings = <&kp RG(O)>;
             key-positions = <55 21>;
-            timeout-ms = <60>;
+            timeout-ms = <100>;
         };
     };
 
