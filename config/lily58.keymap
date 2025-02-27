@@ -98,11 +98,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp TILDE  &none  &none                 &none                  &kp CARET        &kp TILDE                            &none   &none           &none           &none            &none  &none
-&none      &none  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp PERCENT                          &none   &none           &kp UP_ARROW    &none            &none  &none
-&none      &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp AT_SIGN                          &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none
-&none      &none  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp POUND        &kp DOLLAR   &kp F2          &trans  &none   &none           &none           &none            &none  &none
-                                        &trans                 &trans           &trans       &msc SCRL_UP    &trans  &trans  &trans          &trans
+&kp TILDE  &none  &none                 &none                  &kp CARET        &kp TILDE                            &none           &none           &none         &none            &none  &none
+&none      &none  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp PERCENT                          &none           &none           &none         &none            &none  &none
+&none      &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp AT_SIGN                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none
+&none      &none  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp POUND        &kp DOLLAR   &kp F2          &trans  &none           &none           &none         &none            &none  &none
+                                        &trans                 &trans           &trans       &msc SCRL_UP    &trans  &trans          &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
