@@ -18,6 +18,12 @@
             key-positions = <55 21>;
             timeout-ms = <100>;
         };
+
+        leader_leader {
+            bindings = <&kp RG(SPACE)>;
+            key-positions = <52 43>;
+            timeout-ms = <100>;
+        };
     };
 
     behaviors {
@@ -83,8 +89,8 @@
 &bt BT_NXT  &none      &none          &none      &none            &none                                &none         &none         &kp MINUS     &kp PLUS      &none           &trans
 &bt BT_PRV  &kp CARET  &kp AMPERSAND  &kp GRAVE  &kp EXCLAMATION  &none                                &kp ASTERISK  &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp UNDERSCORE  &none
 &none       &kp EXCL   &kp AT         &kp HASH   &kp DOLLAR       &kp PRCNT                            &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL       &kp DOUBLE_QUOTES
-&trans      &none      &none          &none      &none            &none      &trans    &kp F2          &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PIPE        &kp BACKSLASH
-                                      &trans     &trans           &trans     &trans    &kp UNDERSCORE  &kp NUMBER_0  &trans        &trans
+&trans      &none      &none          &none      &none            &none      &trans    &trans          &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PIPE        &kp BACKSLASH
+                                      &trans     &trans           &trans     &trans    &kp UNDERSCORE  &kp NUMBER_0  &kp COMMA     &kp DOT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
