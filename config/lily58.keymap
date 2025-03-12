@@ -20,7 +20,7 @@
         };
 
         leader_leader {
-            bindings = <&kp RG(SPACE)>;
+            bindings = <&kp RA(SPACE)>;
             key-positions = <52 43>;
             timeout-ms = <100>;
         };
