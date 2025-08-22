@@ -14,7 +14,7 @@
         compatible = "zmk,combos";
 
         ru_us {
-            bindings = <&kp RG(O)>;
+            bindings = <&kp RA(O)>;
             key-positions = <55 21>;
             timeout-ms = <100>;
         };
